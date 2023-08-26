@@ -1,0 +1,50 @@
+.Homepage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.profile {
+    object-fit: cover;
+    height: 400px;
+    width: auto;
+
+}
+
+.intro h5 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.intro span {
+    color: #FA2FB5;
+}
+.intro h1 {
+    margin-bottom: 30px;
+}
+.intro p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.projectBtn {
+    border: 2px solid #FA2FB5;
+    background: none;
+    color: #FA2FB5;
+    border-radius: 8px;
+    padding: 14px 24px;
+    transition: 200ms all ease-in;
+}
+
+.projectBtn:hover {
+    background: #FA2FB5;
+    color: #f9f9f9;
+    border: none;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+ .row {
+    flex-direction: column-reverse;
+ }
+}

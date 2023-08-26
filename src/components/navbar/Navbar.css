@@ -1,0 +1,45 @@
+.Navbar {
+    max-width: 1200px;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content:
+    space-between;
+  margin: 0 auto;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.iconLogo {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.menuList {
+    margin: 24px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 200ms all ease-in;
+    text-decoration: none;
+    color: #010101;
+}
+.menuList:hover {
+    color: #FA2FB5;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #FA2FB5;
+    
+}
+.contactBtn {
+    background: #010101;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 24px;
+    transition: 200ms all ease-in;
+   
+}
+.contactBtn:hover {
+    background: #FA2FB5;
+    font-size: 16px;
+}
