@@ -1,50 +1,77 @@
 .Homepage {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 24px;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  padding: 24px;
 }
 
 .profile {
-    object-fit: cover;
-    height: 400px;
-    width: auto;
-
+  object-fit: cover;
+  height: 400px;
+  width: auto;
+  border: 5px solid #fa2fb5;
+  border-radius: 100px;
+  background: #fa2fb5;
 }
 
 .intro h5 {
-    font-size: 32px;
-    font-weight: 300;
-    margin-top: 30px;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 30px;
 }
 .intro span {
-    color: #FA2FB5;
+  color: #fa2fb5;
 }
 .intro h1 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-.intro p{
-    font-size: 14px;
-    line-height: 1.5;
+.intro p {
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .projectBtn {
-    border: 2px solid #FA2FB5;
-    background: none;
-    color: #FA2FB5;
-    border-radius: 8px;
-    padding: 14px 24px;
-    transition: 200ms all ease-in;
+  margin-top: 24px;
+  border: 2px solid #fa2fb5;
+  background: none;
+  color: #fa2fb5;
+  border-radius: 8px;
+  padding: 14px 24px;
+  transition: 200ms all ease-in;
 }
 
 .projectBtn:hover {
-    background: #FA2FB5;
-    color: #f9f9f9;
-    border: none;
-    font-size: 16px;
+  background: #fa2fb5;
+  color: #f9f9f9;
+  border: none;
+  font-size: 16px;
 }
 
 @media (max-width: 768px) {
- .row {
+  .row {
     flex-direction: column-reverse;
- }
+  }
+  .projectBtn {
+    display: block;
+    width: 100%;
+  }
+  .intro h5 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .intro span {
+    color: #fa2fb5;
+  }
+  .intro h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .intro p {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+  }
 }

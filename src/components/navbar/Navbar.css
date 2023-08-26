@@ -1,45 +1,36 @@
-.Navbar {
-    max-width: 1200px;
-    height: 80px;
-    width: 100vw;
-    display: flex;
-    justify-content:
-    space-between;
-  margin: 0 auto;
-  padding: 20px 30px;
-  align-items: center;
+.navbar {
+  background: white;
 }
 
+.container-fluid {
+  max-width: 1200px;
+}
 .iconLogo {
     object-fit: cover;
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    width: auto;
+}
+.menuList {
+  align-items: center;
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  margin: 4px 8px;
+  padding: 20px;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #fa2fb5 !important;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #fa2fb5;
+  transition: all 200ms ease;
 }
 
-.menuList {
-    margin: 24px;
-    cursor: pointer;
-    padding: 10px;
-    transition: 200ms all ease-in;
-    text-decoration: none;
-    color: #010101;
+@media (max-width: 800px) {
+    .navbar-brand {
+    margin-left: 25px;
 }
-.menuList:hover {
-    color: #FA2FB5;
-    padding-bottom: 4px;
-    border-bottom: 2px solid #FA2FB5;
-    
-}
-.contactBtn {
-    background: #010101;
-    color: #f9f9f9;
-    border: none;
-    border-radius: 8px;
-    padding: 14px 24px;
-    transition: 200ms all ease-in;
-   
-}
-.contactBtn:hover {
-    background: #FA2FB5;
-    font-size: 16px;
 }
