@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: #f9f9f9;
+    background: hsla(298, 68%, 90%, 1);
+    background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
     color: black;
     overflow: hidden;
     overflow-y: scroll;

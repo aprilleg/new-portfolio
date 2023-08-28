@@ -1,7 +1,7 @@
 .Homepage {
   max-width: 1200px;
   display: block;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 24px;
 }
 
@@ -11,9 +11,12 @@
   width: auto;
   border: 5px solid #fa2fb5;
   border-radius: 100px;
-  background: #fa2fb5;
+  background: none;
+  margin-top: 20px;
 }
-
+.content {
+  text-align: center;
+}
 .intro h5 {
   font-size: 32px;
   font-weight: 300;
